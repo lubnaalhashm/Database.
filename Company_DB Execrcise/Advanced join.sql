@@ -29,9 +29,6 @@ inner join Employee E
 on E.department_id = D.department_id
 group by D.department_name, D.Deparment_location, E.employee_name;
 
-select * from departments
-select * from projects
-select * from Employee
 
 /*Identify Departments With More Than 2 Employees*/
 select D.department_name
