@@ -28,10 +28,14 @@ on update cascade,
 );
 
 insert into departments(department_name, Deparment_location) values
-('Hr', 'New York'),
-('IT', 'San Franscisco'),
-('Marketing', 'Los Angeles'),
-('Finance', 'Chicago');
+('Hr', 'Ibra'),
+('IT', 'Muscat'),
+('Marketing', 'Ibra'),
+('Finance', 'Sur'),
+('Finance', 'Muscat'),
+('IT', 'Sur');
+
+select * from departments
 
 insert into Employee (employee_name, salary, department_id, hire_Date ) values
 ('Lubna', 900.5, 1, '02-07-2025'),
